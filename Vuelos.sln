@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33502.453
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vuelos.Android", "Vuelos\Vuelos.Android\Vuelos.Android.csproj", "{F5CA2599-6258-41E8-A184-6902F907CF14}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vuelos", "Vuelos\Vuelos\Vuelos.csproj", "{637B46E8-ADEF-4B50-B4C6-243D92BF4102}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F5CA2599-6258-41E8-A184-6902F907CF14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5CA2599-6258-41E8-A184-6902F907CF14}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5CA2599-6258-41E8-A184-6902F907CF14}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{F5CA2599-6258-41E8-A184-6902F907CF14}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5CA2599-6258-41E8-A184-6902F907CF14}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F5CA2599-6258-41E8-A184-6902F907CF14}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{637B46E8-ADEF-4B50-B4C6-243D92BF4102}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{637B46E8-ADEF-4B50-B4C6-243D92BF4102}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{637B46E8-ADEF-4B50-B4C6-243D92BF4102}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{637B46E8-ADEF-4B50-B4C6-243D92BF4102}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{637B46E8-ADEF-4B50-B4C6-243D92BF4102}.Release|Any CPU.Build.0 = Release|Any CPU
+		{637B46E8-ADEF-4B50-B4C6-243D92BF4102}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {110A0541-14EB-4329-894D-4571C793EF35}
+	EndGlobalSection
+EndGlobal
