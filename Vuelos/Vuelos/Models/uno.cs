@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using System.Text;
 using SQLite;
+using SQLiteNetExtensions.Attributes;
+
 namespace Vuelos.Models
 {
     public class uno
@@ -24,5 +26,8 @@ namespace Vuelos.Models
         public string Usuario { get; set; }
         [MaxLength(30)]
         public string Contrasena { get; set; }
+        [OneToMany]
+        public List<Reserva> Reservas { get; set; }
     }
+
 }

@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Vuelos.Vista.User.MiEstado"
+             BackgroundImageSource="mar.jpg">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Detalle del Vuelo" FontAttributes="Bold" FontSize="Large" Margin="10" BackgroundColor="Black"/>
+            <ListView x:Name="lscuatro" HasUnevenRows="True" SeparatorVisibility="None" ItemsSource="{Binding cuatro}">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <Frame BackgroundColor="#E3F2FD" CornerRadius="10" Margin="10">
+                                <StackLayout Padding="10">
+                                    <StackLayout Orientation="Horizontal">
+                                        <Label Text="País Destino: " FontSize="14" FontAttributes="Bold" TextColor="#757575"/>
+                                        <Label Text="{Binding NombreVuelos}" FontSize="14" TextColor="#212121"/>
+                                    </StackLayout>
+                                    <StackLayout Orientation="Horizontal">
+                                        <Label Text="Precio (Soles) " FontSize="14" FontAttributes="Bold" TextColor="#757575"/>
+                                        <Label Text="{Binding Precio}" FontSize="14" TextColor="#212121"/>
+                                    </StackLayout>
+                                    <StackLayout Orientation="Horizontal">
+                                        <Label Text="Estado: " FontSize="14" FontAttributes="Bold" TextColor="#757575"/>
+                                        <Label Text="{Binding Estado}" FontSize="14" TextColor="#212121"/>
+                                    </StackLayout>
+                                    <Image Source="{Binding Imagen}"  WidthRequest="50" HeightRequest="80" />
+                                </StackLayout>
+                            </Frame>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

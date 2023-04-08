@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Vuelos.Vista.Admin.loginAdmin"
+             BackgroundColor="#FDE8E7">
+    <ContentPage.Content>
+        <StackLayout Padding="20" Spacing="20">
+            <Label Text="Bienvenido Administrador"
+                VerticalOptions="Center" 
+                HorizontalOptions="Center" FontSize="28" TextColor="#4B0082" FontAttributes="Italic"/>
+            <Image Source="planetaAmarillo.jpg" Aspect="AspectFill" HeightRequest="200">
+            </Image>
+            <Label Text="Administrador:" FontAttributes="Bold"></Label>
+            <Entry x:Name="txtRolAdmin" Placeholder="Ingrese su Usuario de Administrador" FontSize="16"/>
+            <Label Text="Contraseña:" FontAttributes="Bold"></Label>
+            <Entry x:Name="txtContrasenaAdministrador" Placeholder="Ingrese su Contraseña Administrador" FontSize="16" IsPassword="True"/>
+            <Button x:Name="btnSesion" Text="Iniciar Sesión" Clicked="btnSesion_Clicked"
+                 BackgroundColor="#FF2AAF" TextColor="White" FontSize="16"
+                 CornerRadius="5" HeightRequest="50"/>
+            <Button x:Name="Volver" Text="Volver" TextColor="White" BackgroundColor="LightCoral" Clicked="Volver_Clicked"/>
+            <Button x:Name="btnRegistroLoginAdmin" Text="¿No tienes cuenta? Regístrate aquí Administrador"
+                 Clicked="btnRegistroLoginAdmin_Clicked" BackgroundColor="Transparent"
+                 TextColor="#4B0082" FontSize="14"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Vuelos.Vista.User.VerVuelo"
+             BackgroundImageSource="mar.jpg">
+    <ContentPage.Content>
+        <StackLayout Margin="20" >
+            <ListView x:Name="lstCuatro" HasUnevenRows="True" SeparatorVisibility="None" >
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <StackLayout>
+
+                                <!-- Fila de contenido -->
+                                <Grid RowSpacing="10" Padding="20,20,20,20">
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="Auto"/>
+                                        <ColumnDefinition Width="*"/>
+                                    </Grid.ColumnDefinitions>
+                                    <Label Text="IDCompraVuelos :" Grid.Row="1" TextColor="Black" FontAttributes="Bold"/>
+                                    <Label Text="NombreVuelos :" Grid.Row="2" TextColor="Black" FontAttributes="Bold"/>
+                                    <Label Text="Precio :" Grid.Row="3"  TextColor="Black" FontAttributes="Bold"/>
+                                    <Label Text="Estado :" Grid.Row="4"  TextColor="Black" FontAttributes="Bold"/>
+                                    <Label Text="{Binding IdCompraVuelos}" Grid.Row="1" Grid.Column="1" TextColor="DarkBlue" FontAttributes="Bold"/>
+                                    <Label Text="{Binding NombreVuelos}" Grid.Row="2" Grid.Column="1" TextColor="DarkBlue" FontAttributes="Bold"/>
+                                    <Label Text="{Binding Precio}" Grid.Row="3" Grid.Column="1" TextColor="DarkBlue" FontAttributes="Bold"/>
+                                    <Label Text="{Binding Estado}" Grid.Row="4" Grid.Column="1" TextColor="DarkBlue" FontAttributes="Bold"/>
+                                    <Image Source="{Binding Imagen}" Grid.Row="0" Grid.Column="0" WidthRequest="50" HeightRequest="80" />
+                                    <Button x:Name="Reservar" Clicked="Reservar_Clicked" Text="Compra Vuelos" TextColor="White" Grid.Row="5" Grid.Column="1" BackgroundColor="#FF2AAF"/>
+                                </Grid>
+                            </StackLayout>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

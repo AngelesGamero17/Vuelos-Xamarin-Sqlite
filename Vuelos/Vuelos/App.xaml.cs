@@ -10,10 +10,14 @@ namespace Vuelos
     public partial class App : Application
     {
         static dos db;
+        public static class AppContext
+        {
+            public static string UserId { get; set; }
+        }
         public App()
         {
             InitializeComponent();
-            MainPage=new NavigationPage(new login());
+            MainPage=new NavigationPage(new InicioVuelosxaml());
             //MainPage = new MainPage();
         }
         public static dos SQLiteDB

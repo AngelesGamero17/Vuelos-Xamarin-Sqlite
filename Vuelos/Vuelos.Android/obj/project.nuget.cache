@@ -1,10 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "xGBvs/vi4gzI2MGOs8KiErYLVL4O254tzn3jj7USoJAEC9KobzEuTPILEyntpA/usSthu4eR9EWnBTB8zEX8fQ==",
+  "dgSpecHash": "XHoTLWpkLMYZoSHm/XScDr2QmDnhZQG74nBJM1mhWqas7i/RKIsqIndRLFo77ZnFOH9xYb6vzuzLqzfzQ3Qvtg==",
   "success": true,
   "projectFilePath": "C:\\Users\\angel\\source\\repos\\Vuelos\\Vuelos\\Vuelos.Android\\Vuelos.Android.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\angel\\.nuget\\packages\\newtonsoft.json\\9.0.1\\newtonsoft.json.9.0.1.nupkg.sha512",
     "C:\\Users\\angel\\.nuget\\packages\\sqlite-net-pcl\\1.8.116\\sqlite-net-pcl.1.8.116.nupkg.sha512",
+    "C:\\Users\\angel\\.nuget\\packages\\sqlitenetextensions\\2.1.0\\sqlitenetextensions.2.1.0.nupkg.sha512",
     "C:\\Users\\angel\\.nuget\\packages\\sqlitepclraw.bundle_green\\2.0.4\\sqlitepclraw.bundle_green.2.0.4.nupkg.sha512",
     "C:\\Users\\angel\\.nuget\\packages\\sqlitepclraw.core\\2.0.4\\sqlitepclraw.core.2.0.4.nupkg.sha512",
     "C:\\Users\\angel\\.nuget\\packages\\sqlitepclraw.lib.e_sqlite3.android\\2.0.4\\sqlitepclraw.lib.e_sqlite3.android.2.0.4.nupkg.sha512",

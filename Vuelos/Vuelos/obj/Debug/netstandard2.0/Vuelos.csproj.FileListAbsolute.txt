@@ -4,7 +4,6 @@ C:\Users\angel\source\repos\Vuelos\Vuelos\Vuelos\bin\Debug\netstandard2.0\Vuelos
 C:\Users\angel\source\repos\Vuelos\Vuelos\Vuelos\obj\Debug\netstandard2.0\Vuelos.csproj.AssemblyReference.cache
 C:\Users\angel\source\repos\Vuelos\Vuelos\Vuelos\obj\Debug\netstandard2.0\Vuelos.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\angel\source\repos\Vuelos\Vuelos\Vuelos\obj\Debug\netstandard2.0\App.xaml.g.cs
-C:\Users\angel\source\repos\Vuelos\Vuelos\Vuelos\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
 C:\Users\angel\source\repos\Vuelos\Vuelos\Vuelos\obj\Debug\netstandard2.0\Vuelos.AssemblyInfoInputs.cache
 C:\Users\angel\source\repos\Vuelos\Vuelos\Vuelos\obj\Debug\netstandard2.0\Vuelos.AssemblyInfo.cs
 C:\Users\angel\source\repos\Vuelos\Vuelos\Vuelos\obj\Debug\netstandard2.0\Vuelos.csproj.CoreCompileInputs.cache
@@ -13,5 +12,13 @@ C:\Users\angel\source\repos\Vuelos\Vuelos\Vuelos\obj\Debug\netstandard2.0\Vuelos
 C:\Users\angel\source\repos\Vuelos\Vuelos\Vuelos\obj\Debug\netstandard2.0\refint\Vuelos.dll
 C:\Users\angel\source\repos\Vuelos\Vuelos\Vuelos\obj\Debug\netstandard2.0\Vuelos.pdb
 C:\Users\angel\source\repos\Vuelos\Vuelos\Vuelos\obj\Debug\netstandard2.0\ref\Vuelos.dll
-C:\Users\angel\source\repos\Vuelos\Vuelos\Vuelos\obj\Debug\netstandard2.0\login.xaml.g.cs
-C:\Users\angel\source\repos\Vuelos\Vuelos\Vuelos\obj\Debug\netstandard2.0\PantallaInicio.xaml.g.cs
+C:\Users\angel\source\repos\Vuelos\Vuelos\Vuelos\obj\Debug\netstandard2.0\Vista\Admin\PantallaInicio.xaml.g.cs
+C:\Users\angel\source\repos\Vuelos\Vuelos\Vuelos\obj\Debug\netstandard2.0\InicioVuelosxaml.xaml.g.cs
+C:\Users\angel\source\repos\Vuelos\Vuelos\Vuelos\obj\Debug\netstandard2.0\Vista\Admin\loginAdmin.xaml.g.cs
+C:\Users\angel\source\repos\Vuelos\Vuelos\Vuelos\obj\Debug\netstandard2.0\Vista\User\logearUsuario.xaml.g.cs
+C:\Users\angel\source\repos\Vuelos\Vuelos\Vuelos\obj\Debug\netstandard2.0\Vista\User\RegistroUsuario.xaml.g.cs
+C:\Users\angel\source\repos\Vuelos\Vuelos\Vuelos\obj\Debug\netstandard2.0\Vista\Admin\MainPage.xaml.g.cs
+C:\Users\angel\source\repos\Vuelos\Vuelos\Vuelos\obj\Debug\netstandard2.0\Vista\User\BienvenidaUsuarion.xaml.g.cs
+C:\Users\angel\source\repos\Vuelos\Vuelos\Vuelos\obj\Debug\netstandard2.0\Vista\User\MiEstado.xaml.g.cs
+C:\Users\angel\source\repos\Vuelos\Vuelos\Vuelos\obj\Debug\netstandard2.0\Vista\User\VerVuelo.xaml.g.cs
+C:\Users\angel\source\repos\Vuelos\Vuelos\Vuelos\obj\Debug\netstandard2.0\Vista\Admin\ListaCompra.xaml.g.cs

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Vuelos.Vista.User.BienvenidaUsuarion"
+             BackgroundImageSource="fondoo.jpg" Padding="20">
+    <ContentPage.Content >
+        <StackLayout HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
+            <Label x:Name="lol" />
+            <Button x:Name="VerVueloDisponibles" Text="Ver Vuelos Disponibles" Clicked="VerVueloDisponibles_Clicked" BackgroundColor="Pink"/>
+            <Button x:Name="MiEstado" Text="Mi Estado" Clicked="MiEstado_Clicked" BackgroundColor="LightGreen"/>
+            <Button x:Name="CerrarSesion" Text="Cerrar Sesiòn" Clicked="CerrarSesion_Clicked" BackgroundColor="LightCoral"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 using SQLite;
+using SQLiteNetExtensions.Attributes;
 
 
 namespace Vuelos.Models
@@ -18,6 +19,7 @@ namespace Vuelos.Models
         public string Estado { get; set; }
         [MaxLength(30)]
         public string Imagen { get; set; }
-
+        [OneToMany]
+        public List<Reserva> Reservas { get; set; }
     }
 }
